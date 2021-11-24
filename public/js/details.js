@@ -23,11 +23,9 @@ function showDetail() {
     editForm.image.value = image;
     editForm.description.value = description;
 
-
     document.querySelector(".recipe").innerHTML = ``;
     document.querySelector(".recipe").appendChild(recipeEl);
 
-    
   }
 
   const updateRecipe = (event) => {
