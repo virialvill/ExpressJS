@@ -1,5 +1,6 @@
 const mongoose = require ("mongoose");
-// const Schema = mongoose.Schema;
+const Schema = mongoose.Schema;
+// import mongoose from 'mongoose.Schema';
 
 const RecipeSchema = new mongoose.Schema({
     title: String,
@@ -9,3 +10,5 @@ const RecipeSchema = new mongoose.Schema({
   });
   
   const Recipe = mongoose.model("Recipe", RecipeSchema);
+
+  
